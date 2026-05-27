@@ -1,0 +1,145 @@
+body
+{
+	background-color:#6F76A0;
+	font-family: "Google Sans", sans-serif;
+}
+
+#container
+{
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo
+{
+	color: white;
+	margin-top: 15px;
+	font-size: 50px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	background-color: #3d3d3d;
+	padding: 10px;
+	text-align: center;
+}
+#menu
+{
+	background-color:#3d3d3d;
+	color: white;
+	margin-top: 10px;
+	padding: 10px;
+}
+#topbar
+{
+	background-color: #a1a1a1;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 170px;
+}
+#topbarL
+{
+	float: left;
+	padding: 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px solid black;
+}
+#topbarR
+{
+	margin-left: 5px;
+	float:left;
+	padding: 20xp;
+	width:960px;
+	font-size: 16px;
+	text-align: justify;
+}
+#sidebar
+{
+	float: left;
+	width: 198px;
+	min-height: 620px;
+	padding: 20px;
+	background-color: #94acb5;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px solid #666666
+}
+#content
+{	
+	margin-top: 10px;
+	float: left;
+	padding: 40px;
+	width: 1420px;
+	background-color: #a1a1a1;
+	min-height: 580px;
+	text-align: justify;
+}
+#footer
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding:20px;
+	font-size: 18px;
+}
+
+.option
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px solid #6270ff;
+	opacity: 0.75;
+}
+
+.option:hover
+{
+	background-color:#32c8ff;
+	cursor: pointer;
+}
+.optionL
+{
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px solid #444444
+}
+.optionL:hover
+{
+	background-color: #32c8ff;
+	color: white;
+	cursor: pointer;
+}
+
+.bigtitle
+{
+	font-size:30px;
+	font-weight:900;
+	letter-spacing: 1px;
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top:15px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #444444;
+}
+#myClock {
+	float: justify;
+	margin-top:15px;
+	font-family: Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #6400ff;
+    padding: 10px 20px;
+    border: 2px solid #6400ff;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px #6400ff;
+	
+}

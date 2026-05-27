@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<style>
+		a{ color: white;}
+	</style>
+	<meta charset="utf-8"/>
+	<title>Audio Świat </title>
+	<meta name="description" content="Dowiedz się wszystkiego odnośnie świata audio, zobacz nasze rekomendacje słuchawek, iem'ek oraz innych rzeczy" />
+	<meta bame="keywords" content="iem, audio, słuchawki, studio, wzmacniacz, otwarte słuchawki, harman, trebble, bass, mid-range" />
+	<meta hhtp-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	
+	<link rel="stylesheet" href="style3.css" type="text/css" />
+	
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<div id="logo">
+			Poznaj świat Audio
+		</div>
+		<div id="menu">
+			<div class="option"><a href="indexaudio.html">Strona Główna</a></div>
+			<div class="option"><a href="indexaudio2.html">Terminologia</a></div>
+			<div class="option"><a href="indexaudio3.html">Co to dźwięk</a></div>
+			<div class="option"><a href="indexaudio4.html">Jak działają słuchawki</a></div>
+			<div class="option"><a href="indexiem.html">Rekomendacje</a></div>
+			<div class="option">Kontakt</div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div style="clear:both"></div>
+		<div id="content">
+			<span class="bigtitle">Zadzwoń lub napisz do nas pod numer 333 666 999 (+48) w godzinach od 10:00 do 18:00. W tym pomoże ci poniższy zegar. </br> </span>
+			<div id="myClock"></div>
+			<div style="height: 15px;"></div>
+			<div class="dottedline"></div>
+			</br></br>Kontakt (Klikalny)
+			
+			</br></br>
+			<a href="https://pl.wikipedia.org/wiki/Kontakt"> <img src="kontakt.jpg" height="600" width="600" title="kontakt"></a>
+		</div>
+		<div id="footer">
+			Wszystko odnośnie audio znajdziesz u nas!
+		</div>
+		<script>
+		(function() {
+		function updateClock() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        document.getElementById('myClock').textContent = `${hours}:${minutes}:${seconds}`;
+		}
+		updateClock(); // Show immediately
+		setInterval(updateClock, 1000); // Update every second
+		})();	
+		
+</script>
+
+
+
+
+
+</body>
+</html>
